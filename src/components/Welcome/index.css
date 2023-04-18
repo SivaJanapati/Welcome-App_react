@@ -1,0 +1,51 @@
+.bgColor {
+  background-color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #f0bb03;
+  font-size: 40px;
+  font-family: 'Bree Serif';
+  font-weight: 600;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 80px;
+  }
+}
+.para {
+  color: white;
+  font-size: 20px;
+  font-family: 'Bree Serif';
+  margin-top: 20px;
+}
+.button {
+  background-color: white;
+  color: #1e293b;
+  font-size: 10px;
+  border-radius: 12px;
+  font-weight: bold;
+  border-style: none;
+  font-family: 'Bree Serif';
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .para {
+    font-size: 30px;
+  }
+}
